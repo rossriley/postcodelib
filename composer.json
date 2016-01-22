@@ -1,0 +1,19 @@
+{
+    "name": "rossriley/postcodelib",
+    "description": "Perform simple analysis and validation on UK postcodes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ross Riley",
+            "email": "riley.ross@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Postcodelib\\": "src/",
+            "Postcodelib\\Tests\\": "tests/"
+        }
+    }
+}
